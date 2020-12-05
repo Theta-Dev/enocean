@@ -905,6 +905,15 @@
           </enum>
         </data>
       </profile>
+      <profile type="0x09" description="Window handle">
+        <data>
+          <enum description="Handle position" shortcut="WIN" offset="29" size="2">
+            <item description="closed" value="0" />
+            <item description="tilted" value="1" />
+            <item description="open" value="3" />
+          </enum>
+        </data>
+      </profile>
     </profiles>
     <profiles description="HVAC Components" func="0x20">
       <profile description="Battery Powered Actuator (BI-DIR)" type="0x01">
