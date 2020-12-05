@@ -434,6 +434,16 @@ All profiles (should) correspond to the official [EEP](http://www.enocean-allian
 |        |                                                  |        |0 - closed                                                            |
 
 
+##### RORG 0xA5 - FUNC 0x14 - TYPE 0x09 - Window handle
+
+|shortcut|description                                       |type    |values                                                                |
+|--------|--------------------------------------------------|--------|----                                                                  |
+|WIN     |Handle position                                   |enum    |0 - closed                                                            |
+|        |                                                  |        |1 - tilted                                                            |
+|        |                                                  |        |3 - open                                                              |
+|SVC     |Supply voltage (linear)                           |value   |0.0-255.0 ↔ 0.0-5.1 V                                                 |
+
+
 
 ##### RORG 0xA5 - FUNC 0x20 - TYPE 0x01 - Battery Powered Actuator (BI-DIR)
 
